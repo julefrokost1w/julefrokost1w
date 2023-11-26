@@ -40,11 +40,11 @@
         <br><br>
         <div class="praktisk">
 
-            <img class="symbol stid" src="./clock.png" alt="ur">
-            <img class="symbol ssted" src="./pin.png" alt="pin">
-            <img class="symbol ssweater" src="./sweater.png" alt="sweater">
-            <img class="symbol smad" src="./mad.png" alt="mad">
-            <img class="symbol sgave" src="./gave.png" alt="gave">
+            <img class="symbol stid" src="./mainimg/clock.png" alt="ur">
+            <img class="symbol ssted" src="./mainimg/pin.png" alt="pin">
+            <img class="symbol ssweater" src="./mainimg/sweater.png" alt="sweater">
+            <img class="symbol smad" src="./mainimg/mad.png" alt="mad">
+            <img class="symbol sgave" src="./mainimg/gave.png" alt="gave">
 
             <div class="pinfo ptitel">PRAKTISK INFO</div>
             <div class="p ptid">
@@ -62,13 +62,41 @@
                 <div class="psweatersub">
                     <p class="tsweater">Du skal være påført en crazy julesweater.<br>Hvis du mangler inspiration til
                         dette, kan du finde et udvalg nedenfor.</p>
-                    <img class="symbol spil" src="./arrow.png" alt="pil-ned">
+                    <img class="symbol spil" src="./mainimg/arrow.png" alt="pil-ned" onclick="goToID('sweaterdiv')">
                 </div>
             </div>
+        </div>
 
 
+
+
+
+    </div>
+    <div class="sweaterdiv" id="sweaterdiv">
+        <div class="cover"></div>
+
+        <div class="sweater-container">
+            <div></div>
+            <div class="sweater-wrapper">
+                <img src="./sweaters/6.png" alt="grimsweater">
+                <img src="./sweaters/1.png" alt="grimsweater">
+                <img src="./sweaters/2.png" alt="grimsweater">
+                <img src="./sweaters/3.png" alt="grimsweater">
+                <img src="./sweaters/4.png" alt="grimsweater">
+                <img src="./sweaters/6.png" alt="grimsweater">
+                <img src="./sweaters/1.png" alt="grimsweater">
+            </div>
+
+            <div></div>
         </div>
     </div>
+
+
+
+
+
 </body>
 
 </html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
