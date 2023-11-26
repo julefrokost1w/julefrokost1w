@@ -140,7 +140,7 @@ body {
     display: grid;
     grid-template-rows: 120px;
     grid-template-columns: 150px auto 150px;
-    background-image: url(./mainimg/treebg.jpg);
+    background-image: url(./images/treebg.jpg);
     background-size: 300%;
 
     animation-name: movep;
@@ -174,7 +174,7 @@ body {
     display: grid;
     grid-template-rows: repeat(30, 35px);
     grid-template-columns: 150px auto 150px;
-    background-image: url(./mainimg/treebg.jpg);
+    background-image: url(./images/treebg.jpg);
     background-size: 300%;
 
     animation-name: move;
