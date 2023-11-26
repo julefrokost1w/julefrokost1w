@@ -130,6 +130,15 @@ body {
     height: 2500%
 }
 
+.notis {
+    grid-column: 3;
+    grid-row-start: 29;
+    grid-row-end: 32;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 .praktisk {
     position: relative;
     z-index: 100;
